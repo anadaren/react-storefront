@@ -9,8 +9,9 @@ import SearchIcon from '@mui/icons-material/Search';
 export const NavBar = () => {
     return (
         <nav>
-        <Link to="/">LuxShop</Link>
 
+        <div id='title'><Link to="/">LuxShop</Link></div>
+      
         <div className="search-container">
         <input type="text" className="search-bar" placeholder="Search"/>
         <button type="submit"><SearchIcon/></button>

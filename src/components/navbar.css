@@ -14,6 +14,11 @@ nav {
   font-size: 20px;
 }
 
+nav #title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 nav a {
   color: black;
 }
@@ -28,15 +33,15 @@ nav a:hover {
 }
 #navicon-container {
   display: flex;
-  align-items: center;
-  margin-top: 5px;
 }
 
 .link-styles {
   padding: 0 15px;
 }
 .link-icons {
-  padding: 0 5px;
+  padding: 3px 5px;
+  display: flex;
+  align-items: center;
 }
 
   .search-bar {

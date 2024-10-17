@@ -10,14 +10,43 @@
   background-color: #ffdab9;
   color: #ff7700;
   text-align: left;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 1;
-  padding: 4rem;
-  height: 13rem;
+  padding: 1.5rem 5rem;
+  padding-bottom: 7rem;
+  height: 10rem;
   overflow:hidden;
 }
 
 #top-section-container {
   display: flex;
   justify-content: space-between;
+}
+
+#top-section .shop-button {
+  background-color: #ff7700;
+  color: white;
+}
+
+#top-section .shop-button:hover {
+  background-color: #d86500;
+  color: white;
+}
+
+.shop-button {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.shop-button:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+#promo-section {
+  margin: 5rem;
+  font-size: 30px;
 }
