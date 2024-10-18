@@ -1,8 +1,5 @@
 import '/src/App.css';
 import { Link } from "react-router-dom";
-import { PRODUCTS } from "/src/products";
-import { Product } from "/src/product";
-import { ShopContext } from "/src/shop-context.jsx";
 import '/views/shop.css';
 
 export const Home = () => {
@@ -25,61 +22,43 @@ export const Home = () => {
       <section id="promo-section">
         <div>
         <h2>Discover New Ways To Explore Luxery</h2>
-        <Link class="shop-button" to="/shop">Shop Now</Link>
-        </div>
-        
-    </section>
 
-    <section id="about">
-      <h2>Who We Are</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <Link class="shop-button" to="/shop">Learn More</Link>
-    </section>
-
-    <section id="cards">
-      <h2>How it works</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      
-      <grid-container>
+        <grid-container className="products">
       <div className="card">
         <div>
-          Image
+        <img src="/src/assets/2.png"/>
         </div>
         <div>
-          <h2>Browse sellers</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h2>Electronics</h2>
+          <Link class="shop-button" to="/shop">Shop Now</Link>
         </div>
       </div>
 
       <div className="card">
         <div>
-          Image
+          <img src="/src/assets/4.png"/>
         </div>
         <div>
-          <h2>Sell your own thing</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h2>Apparel</h2>
+          <Link class="shop-button" to="/shop">Shop Now</Link>
         </div>
       </div>
 
       <div className="card">
         <div>
-          Image
+        <img src="/src/assets/5.png"/>
         </div>
         <div>
-          <h2>Manage purchases</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h2>Home</h2>
+          <Link class="shop-button" to="/shop">Shop Now</Link>
         </div>
       </div>
     </grid-container>
-    </section>
 
-    <section id="testimonials">
-      <h2>What people are saying</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      
+        
+    </div>
 
     </section>
-
     
       
     </div>

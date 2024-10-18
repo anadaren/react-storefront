@@ -8,7 +8,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 0 2rem 0;
+  padding: .75rem 0 2rem 0;
   font-size: 20px;
 }
 
@@ -43,26 +43,27 @@ nav a:hover {
 }
 
   .search-bar {
-    height: 2.5rem;
-    width: 35rem;
+    height: 2rem;
+    width: 30rem;
     border-radius: 50px;
     padding: 0 0 0 15px;
     background-color: rgb(234, 234, 234);
     color: black;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .search-container {
     display: flex;
     height: 2.5rem;
+    align-items: center;
   }
 
   .search-container button {
     margin-left: 10px;
     padding: 4px 0 0 2px;
     border-radius: 50px;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.25rem;
+    width: 2.25rem;
   }
   
   #nav-container {
@@ -80,7 +81,7 @@ nav a:hover {
 
   footer a {
     color: white;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   footer a:hover {
@@ -88,10 +89,7 @@ nav a:hover {
     text-decoration: underline;
   }
 
-  .footer-text {
-    margin-top: 25px;
-    text-align: center;
-  }
+  
 
   #footer-container {
     display: flex;
@@ -102,7 +100,7 @@ nav a:hover {
 
   #footer-container p {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
   }
 
@@ -110,4 +108,10 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     text-align: left;
+  }
+
+  .footer-text {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 12px;
   }

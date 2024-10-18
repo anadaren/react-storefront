@@ -23,8 +23,8 @@ export const NavBar = () => {
           <Link to="/shop" className="link-styles">What's New</Link>
         </div>
         <div id="navicon-container">
-          <Link to="/shop" className="link-icons"><PersonIcon/></Link>
-          <Link to="/shop" className="link-icons"><FavoriteIcon/></Link>
+          <Link to="/" className="link-icons"><PersonIcon/></Link>
+          <Link to="/" className="link-icons"><FavoriteIcon/></Link>
           <Link to="/cart" className="link-icons"><ShoppingCartIcon/></Link>
         </div>
       </nav>
