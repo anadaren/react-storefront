@@ -1,5 +1,9 @@
 import '/src/App.css';
 import { Link } from "react-router-dom";
+import { PRODUCTS } from "/src/products";
+import { Product } from "/src/product";
+import { ShopContext } from "/src/shop-context.jsx";
+import '/views/shop.css';
 
 export const Home = () => {
   return (
@@ -21,20 +25,18 @@ export const Home = () => {
       <section id="promo-section">
         <div>
         <h2>Discover New Ways To Explore Luxery</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <Link class="shop-button" to="/shop">Shop Now</Link>
         </div>
+        
     </section>
 
     <section id="about">
-      <p>About</p>
       <h2>Who We Are</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <Link class="shop-button" to="/shop">Learn More</Link>
     </section>
 
     <section id="cards">
-      <p>Work</p>
       <h2>How it works</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       
@@ -72,7 +74,6 @@ export const Home = () => {
     </section>
 
     <section id="testimonials">
-      <p>Testimonials</p>
       <h2>What people are saying</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       

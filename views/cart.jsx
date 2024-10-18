@@ -26,23 +26,27 @@ export const Cart = () => {
 
             {totalAmount > 0 ? (
                 <div className="checkout">
-                    <p><b>Order Summary:</b></p>
+                    <h3>Order Summary:</h3>
                     <p>Subtotal: ${totalAmount}</p>
                     <p>Shipping estimate: $5.00</p>
                     <p>Tax estimate: $15.00</p>
                     <hr></hr>
-                    <p>Total: ${totalAmount}</p>
+                    <p><b>Order total: ${totalAmount}</b></p>
 
-                    <div className="checkout-buttons">
-                        <button onClick={() => navigate("/shop")}>Continue Shopping</button>
-                        <button onClick={() => {checkout(); navigate("/checkout");}}>
+                        <button className="shop-button" onClick={() => {checkout(); navigate("/checkout");}}>
                             {" "}
                             Checkout{" "}
                         </button>
-                    </div>
+                  
                 </div>
             ) : (
+                <>
+                <div id="empty-cart">
                 <h2>Your Shopping Cart is Empty</h2>
+                <p>Add some items to your cart to view them here!</p>
+                <button className='shop-button'>Shop Now</button>
+                </div>
+                </>
             )}
             </div>
         </div>

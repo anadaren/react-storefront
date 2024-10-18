@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 2rem 0 2rem;
+    margin: 0 auto;
   }
   
   .cartItem {
@@ -25,15 +27,24 @@
     font-size: 30px;
   }
   
-  .countHandler input {
-    width: 40px;
+  .counterHandler input {
+    width: 60px;
     text-align: center;
     font-weight: bolder;
+    font-size: 20px;
+  }
+  .counterHandler button {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 5px 15px;
+
   }
 
   .checkout {
     position: sticky;
-    outline: 2px solid red;
+    margin: 5rem 4rem;
+    text-align: right;
   }
 
   .cart h1 {
@@ -44,14 +55,7 @@
   }
 
   .checkout button {
-    width: 150px;
-    height: 75px;
-    background-color: rgb(19, 19, 19);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    margin: 10px;
-    cursor: pointer;
+    width: 100%;
   }
 
   .cart-container {
@@ -59,9 +63,11 @@
     grid-template-columns: auto auto;
     gap: 5rem;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 20px; 
   }
 
-  .checkout-buttons { 
-    display: flex;
-  }
+ #empty-cart {
+  margin: 5rem 0;
+  
+ }
+
