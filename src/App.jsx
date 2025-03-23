@@ -13,12 +13,12 @@ function App() {
       <ShopContextProvider>
       <Router>
         <div id="content">
-        <NavBar/>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/shop" element={<Shop/>} />
-          <Route path="/cart" element={<Cart/>} />
-        </Routes>
+          <NavBar/>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/shop" element={<Shop/>} />
+            <Route path="/cart" element={<Cart/>} />
+          </Routes>
         </div>
         <Footer/>
       </Router>

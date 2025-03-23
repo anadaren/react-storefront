@@ -8,10 +8,10 @@ export const Shop = () => {
     return (
         <div className="shop">
             <div className="shopTitle">
-                <h1>Shop</h1>
+                <h1>Our Products</h1>
                 <div className="products">
                     {PRODUCTS.map((product) => (
-                        <Product data={product}/>
+                        <Product key={product.id} data={product}/>
                     ))}
                 </div>
             </div>

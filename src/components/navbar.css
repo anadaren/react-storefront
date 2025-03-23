@@ -13,7 +13,7 @@ nav {
 }
 
 nav #title {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -22,8 +22,7 @@ nav a {
 }
 
 nav a:hover {
-  color: white;
-  background-color: black;
+  color: rgb(100, 100, 100);
 }
 
 #navlink-container {
@@ -113,5 +112,5 @@ nav a:hover {
   .footer-text {
     margin-top: 25px;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
   }
