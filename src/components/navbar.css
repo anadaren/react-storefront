@@ -12,9 +12,12 @@ nav {
   font-size: 20px;
 }
 
-nav #title {
+.title {
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 600;
+}
+.title:hover {
+  color: black;
 }
 
 nav a {

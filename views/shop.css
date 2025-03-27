@@ -1,5 +1,26 @@
 .shopTitle {
-    font-size: 18px;
+    font-size: 15px;
+    
+}
+.shopTitle h1 {
+  text-align: left;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.shop-button {
+  margin: auto 3px;
+}
+
+select {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  height: 25px;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 .products {
@@ -8,19 +29,22 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     place-items: center;
-    margin: 2rem auto;
+    margin: 2rem auto 5rem auto;
 }
   
   .product {
     border-radius: 10px;
-    width: 15rem;
-    height: auto;
-    padding: 15px;
+    width: 18rem;
+    height: 26rem;
+    padding-bottom: 15px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    margin: 1rem auto;
   }
   
   .product img {
     width: 15rem;
+    height: 15rem;
+    object-fit: cover;
   }
   
   .product .description {
@@ -35,15 +59,25 @@
   .product button {
     background-color: rgb(19, 19, 19);
     border: 2px solid rgb(19, 19, 19);
-    min-width: 50px;
-    padding: 5px 10px;
+    padding: 7px 15px;
     border-radius: 7px;
-    font-size: 15px;
-    margin: 0 5px;
+    font-size: 14px;
+    margin: 0 4px;
   }
   
   .product button:hover {
     background-color: white;
     color: rgb(19, 19, 19);
     cursor: pointer;
+  }
+
+  .favBtn {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin: 10px;
+    line-height: 50px;
   }

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { PRODUCTS } from "/src/products";
 import { ShopContext } from "/src/shop-context.jsx";
 import { Link, useNavigate } from "react-router-dom";
-import { CartItem } from '/src/cart-item';
+import { CartItem } from '/src/components/cart-item';
 import '/views/cart.css';
 
 export const Cart = () => {

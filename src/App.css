@@ -5,44 +5,103 @@ padding: 0 2rem 0 2rem;
 text-align: center;
 }
 
+section {
+  margin: 7rem 0;
+  text-align: left;
+}
+
 #top-section {
-  border-radius: 15px;
-  background-color: #ffdab9;
-  color: #ff7700;
+  margin-top: 0;
+  font-size: 10px;
+}
+
+.top-panels {
+  border-radius: 10px;
   text-align: left;
   font-size: 30px;
   line-height: 1;
-  padding: 1.5rem 5rem;
-  padding-bottom: 7rem;
+  padding: 1.5rem 10rem 7rem 10rem;
   height: 10rem;
-  overflow:hidden;
+  overflow: hidden;
+  margin: 0 1rem;
 }
 
-#top-section-container {
-  display: flex;
-  justify-content: space-between;
+.top-panels img {
+  max-width: 30rem;
 }
 
-#top-section .shop-button {
+#panel1 {
+  background-color: #ffdab9;
+  color: #ff7700;
+}
+
+#panel1 .shop-button {
   background-color: #ff7700;
   color: white;
 }
 
-#top-section .shop-button:hover {
+#panel1 .shop-button:hover {
   background-color: #d86500;
   color: white;
 }
 
+#panel2 {
+  background-color: #ffb9e4;
+  color: #ff00a6;
+}
+
+#panel2 .shop-button {
+  background-color: #ff00a6;
+  color: white;
+}
+
+#panel2 .shop-button:hover {
+  background-color: #d7008c;
+  color: white;
+}
+
+#panel3 {
+  background-color: #b9e5ff;
+  color: #007bff;
+}
+
+#panel3 .shop-button {
+  background-color: #007bff;
+  color: white;
+}
+
+#panel3 .shop-button:hover {
+  background-color: #0064cf;
+  color: white;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #promo-section {
-  margin: 7rem 0;
   font-size: 30px;
-  text-align: left;
 }
 
 #promo-section h2 {
   font-size: 2.5rem;
 }
 
+#promo-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+#featured-section {
+  font-size: 15px;
+  text-align: center;
+}
+#featured-section h3 {
+  font-size: 35px;
+  text-align: left;
+}
 
 #about {
   margin: 5rem 0;
@@ -56,17 +115,11 @@ text-align: center;
   height: 200px;
 }
 
-#testimonials {
-  margin: 5rem 0;
-}
-
-
 .shop-button {
   background-color: rgb(70, 70, 70);
   color: white;
   border-radius: 25px;
   padding: 10px 20px;
-  font-size: 15px;
 }
 
 .shop-button:hover {

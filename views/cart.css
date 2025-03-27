@@ -21,8 +21,10 @@
   }
   
   .cartItem .description {
-    width: 100%;
+    width: 70%;
     font-size: 20px;
+    text-align: left;
+    padding: 10px;
   }
   
   .counterHandler input {

@@ -10,7 +10,7 @@ export const NavBar = () => {
     return (
         <nav>
 
-        <div id='title'><Link to="/">LuxShop</Link></div>
+        <Link to="/" className="title">LuxShop</Link>
       
         <div className="search-container">
         <input type="text" className="search-bar" placeholder="Search"/>

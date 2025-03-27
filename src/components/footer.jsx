@@ -35,7 +35,7 @@ export const Footer = () => {
           
         </div>
         <hr></hr>
-        <div className="footer-text">©2024 LuxShop. All Rights Reserved.</div>
+        <div className="footer-text">©2025 LuxShop. All Rights Reserved.</div>
       </footer>
     );
 };
